@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://inaturalist-open-data.s3.amazonaws.com/photos/65060962/original.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario label{
+    background-color: white;
+    
+    margin: 1px;
+}
+.formulario input {
+    width: 70%;
+    height: 30px;
+    margin: 5px;
+}
+
+.formulario button {
+    padding: 0.5em 1em;
+    border: none;
+    background: #30ff41;
+    cursor: pointer;
+}
