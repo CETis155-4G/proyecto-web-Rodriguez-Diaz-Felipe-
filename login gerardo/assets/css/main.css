@@ -1,0 +1,48 @@
+body {
+    background-color: #d7d7d7;
+}
+
+.cabezera {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+.cabezera li {
+    float: left;
+}
+
+.cabezera li a {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.cabezera li:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.active {
+    background-color: #4caf50;
+}
+.bie{
+    margin-top: 50px;
+}
+
+form{
+    margin-top: 10px;
+    width: 30%;
+    display:flex;
+    text-align: center;
+}
+
+form div{
+    margin-left: 10px;
+}
